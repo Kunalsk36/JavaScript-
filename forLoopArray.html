@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayLoop</title>
+</head>
+<body>
+
+    <p id="myTweets"></p>
+    <script>
+        var tweets = ["I am Kunal", "I Love coffee", "Good Morning!"];
+        
+        for (var i =0 ;i<tweets.length ; i++){
+            document.getElementById("myTweets").innerHTML = document.getElementById("myTweets").innerHTML + "<br>" + tweets[i];
+        }
+    </script>
+</body>
+</html>
